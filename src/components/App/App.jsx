@@ -1,14 +1,34 @@
-import React, {Component} from 'react';
+import React from 'react';
+
+import ColorPicker from '../ColorPicker';
 
 import './App.scss';
 
-export default class App extends Component {
+const App = () => {
+  const colors = [
+    {
+      label: 'Red',
+      hexCode: '#e21e26',
+    },
+    {
+      label: 'Yellow',
+      hexCode: '#e9b631',
+    },
+    {
+      label: 'Green',
+      hexCode: '#03a455',
+    },
+    {
+      label: 'Blue',
+      hexCode: '#00aeed',
+    },
+  ];
 
-  render() {
+  return (
+    <div className="app-container">
+      <ColorPicker value="#e9b631" onChange={() => {}} colors={colors} />
+    </div>
+  );
+};
 
-
-    return (
-      <h1>Yo man!</h1>
-    );
-  }
-}
+export default App;
