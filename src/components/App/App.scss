@@ -1,0 +1,18 @@
+:root {
+  --accent-color: #2196f3;
+  --rock-blue: #9abbce;
+  --light-blue: #f1fcff;
+  --dark: #4a4a4a;
+  --body-bg: #f3f7fa;
+  --gull-gray: #a0b0b9;
+}
+
+body {
+  background-color: var(--body-bg);
+  min-height: 100vh;
+  min-width: 320px;
+  padding: 30px 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+}
