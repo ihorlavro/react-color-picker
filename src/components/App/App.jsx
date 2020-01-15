@@ -26,7 +26,13 @@ const App = () => {
 
   return (
     <div className="app-container">
-      <ColorPicker value="#e9b631" onChange={() => {}} colors={colors} />
+      <ColorPicker
+        value="#e9b631"
+        onChange={() => {
+          console.log('Changed');
+        }}
+        colors={colors}
+      />
     </div>
   );
 };

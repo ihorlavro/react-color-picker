@@ -18,6 +18,7 @@
     "no-return-assign": ["off"],
     "react/state-in-constructor": ["off"],
     "react/jsx-props-no-spreading": ["off"],
-    "react/forbid-prop-types": ["off"]
+    "react/forbid-prop-types": ["off"],
+    "no-shadow": ["off"]
   }
 }

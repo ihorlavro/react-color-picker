@@ -1,4 +1,3 @@
-import compose from './compose';
+import { rgbToHex, hexToRgb } from './convert-colors';
 
-// eslint-disable-next-line import/prefer-default-export
-export { compose };
+export { rgbToHex, hexToRgb };
